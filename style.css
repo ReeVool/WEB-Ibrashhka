@@ -16,6 +16,7 @@ html, body {
 #ibra, #ibra_left, #ibra_right {
     width: 40%;
     cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
 }
 
 #ibra_left, #ibra_right {
@@ -32,6 +33,7 @@ html, body {
 
     cursor: pointer;
     background-color: rgba(200, 200, 200, 0.4);
+    overflow: hidden;
 }
 #left_btn {
     margin-left: -300px;
@@ -53,10 +55,6 @@ html, body {
 @media (max-width: 1500px) {
     #ibra, #ibra_left, #ibra_right {
         width: 55%;
-    }
-    .btn {
-        -webkit-tap-highlight-color: transparent;
-        overflow: hidden;
     }
     #right_img {
         width: 110%;
