@@ -34,6 +34,7 @@ html, body {
     cursor: pointer;
     background-color: rgba(200, 200, 200, 0.4);
     overflow: hidden;
+    -webkit-tap-highlight-color: transparent;
 }
 #left_btn {
     margin-left: -300px;
