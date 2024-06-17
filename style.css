@@ -1,0 +1,53 @@
+html, body {
+    margin: 0;
+    background-color: #4f5d4f;
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+    overflow: hidden;
+}
+
+/* фотки ибры */
+#ibra, #ibra_left, #ibra_right {
+    width: 40%;
+    cursor: pointer;
+}
+
+#ibra_left, #ibra_right {
+    display: none;
+}
+
+
+/* кнопки */
+.btn {
+    width: 60%;
+    height: 100vh;
+
+    border: none;
+
+    cursor: pointer;
+    background-color: #7b917b;
+}
+#left_btn {
+    margin-left: -300px;
+    border-radius: 0 45% 45% 0;
+}
+#right_btn {
+    margin-right: -300px;
+    border-radius: 45% 0 0 45%;
+}
+
+
+/* боковые фотки */
+.images {
+    width: 70%;
+    transition: all .3s linear;
+    display: none;
+}
+
+/* @media  */
